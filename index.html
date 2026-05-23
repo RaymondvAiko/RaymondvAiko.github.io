@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Raymond 的个人主页，记录创业、投资、法律、AI 产品与持续学习相关的项目和思考。"
+    >
+    <title>Raymond | AI, Venture Building, Continual Learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span data-i18n="brand.name">Raymond</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-open="false">
+        <a href="#about" data-i18n="nav.about">关于</a>
+        <a href="#projects" data-i18n="nav.projects">项目</a>
+        <a href="#blog" data-i18n="nav.blog">博客</a>
+        <a href="#contact" data-i18n="nav.contact">联系</a>
+      </nav>
+
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang="zh">中文</button>
+        <button class="lang-button" type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">个人主页 / 长期写作 / 项目记录</p>
+          <h1 data-i18n="hero.title">你好，我是 Raymond</h1>
+          <p class="hero-copy" data-i18n="hero.subtitle">
+            我在这里整理自己的工作、项目、思考和持续学习的轨迹。
+          </p>
+          <div class="hero-actions">
+            <a class="button secondary" href="#projects" data-i18n="hero.projectsCta">了解项目</a>
+            <a class="button secondary" href="#blog" data-i18n="hero.primaryCta">阅读博客</a>
+            <a class="button secondary" href="#contact" data-i18n="hero.secondaryCta">联系我</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile snapshot">
+          <img class="profile-image" src="assets/profile-placeholder.svg" alt="Profile visual placeholder">
+          <div>
+            <p class="profile-label" data-i18n="profile.label">当前关注</p>
+            <ul class="focus-list" id="focus-list"></ul>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section two-column" id="about">
+        <div>
+          <p class="eyebrow" data-i18n="sections.aboutKicker">关于我</p>
+          <h2 data-i18n="sections.aboutTitle">把复杂问题拆成可以长期推进的系统</h2>
+        </div>
+        <div class="section-copy">
+          <p data-i18n="about.body">
+            这里可以放你的个人介绍、专业背景、兴趣方向和你希望别人记住你的关键词。
+          </p>
+          <div class="metrics" id="metrics"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="sections.projectsKicker">项目与经历</p>
+            <h2 data-i18n="sections.projectsTitle">一些值得被看见的工作</h2>
+          </div>
+        </div>
+        <div class="project-grid" id="project-grid" data-project-limit="3"></div>
+        <div class="more-row">
+          <a class="button secondary" href="projects.html" data-i18n="projectsPage.moreCta">更多内容</a>
+        </div>
+      </section>
+
+      <section class="section blog-section" id="blog">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="sections.blogKicker">博客</p>
+            <h2 data-i18n="sections.blogTitle">把想法沉淀成可回看的文字</h2>
+          </div>
+          <div class="tag-filter" id="tag-filter" aria-label="Blog tag filter"></div>
+        </div>
+        <div class="blog-grid" id="blog-grid" data-blog-limit="3"></div>
+        <div class="more-row">
+          <a class="button secondary" href="blog.html" data-i18n="blogPage.moreCta">更多内容</a>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow" data-i18n="sections.contactKicker">联系</p>
+          <h2 data-i18n="sections.contactTitle">欢迎交流想法、项目和机会</h2>
+        </div>
+        <div class="contact-links" id="contact-links"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.note">用静态 HTML/CSS/JS 构建，方便长期维护。</span>
+      <span id="footer-year"></span>
+    </footer>
+
+    <dialog class="article-dialog" id="article-dialog">
+      <article class="article-modal">
+        <button class="dialog-close" type="button" aria-label="Close article">×</button>
+        <p class="article-meta" id="article-meta"></p>
+        <h2 id="article-title"></h2>
+        <img class="article-cover" id="article-cover" alt="" hidden>
+        <div class="article-tags" id="article-tags"></div>
+        <div class="article-body" id="article-body"></div>
+      </article>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>

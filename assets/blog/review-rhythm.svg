@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Review rhythm cover</title>
+  <desc id="desc">A circular review rhythm with notes around it.</desc>
+  <rect width="960" height="540" fill="#d9efeb"/>
+  <circle cx="480" cy="270" r="126" fill="none" stroke="#0f766e" stroke-width="30"/>
+  <path d="M566 178h92v92" fill="none" stroke="#19201d" stroke-width="24" stroke-linecap="round"/>
+  <rect x="168" y="148" width="168" height="96" rx="12" fill="#fffdf8"/>
+  <rect x="624" y="310" width="168" height="96" rx="12" fill="#fffdf8"/>
+  <rect x="228" y="332" width="168" height="48" rx="10" fill="#c9912f"/>
+  <circle cx="480" cy="270" r="44" fill="#a8573b"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI workflow cover</title>
+  <desc id="desc">Connected workflow blocks for AI-assisted work.</desc>
+  <rect width="960" height="540" fill="#d9efeb"/>
+  <path d="M190 270h580" stroke="#19201d" stroke-width="18" stroke-linecap="round"/>
+  <rect x="110" y="202" width="160" height="136" rx="18" fill="#fffdf8"/>
+  <rect x="400" y="202" width="160" height="136" rx="18" fill="#0f766e"/>
+  <rect x="690" y="202" width="160" height="136" rx="18" fill="#fffdf8"/>
+  <circle cx="480" cy="270" r="42" fill="#c9912f"/>
+  <path d="M170 272h42M748 272h42" stroke="#a8573b" stroke-width="14" stroke-linecap="round"/>
+</svg>

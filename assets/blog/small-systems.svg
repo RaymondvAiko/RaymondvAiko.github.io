@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Small systems cover</title>
+  <desc id="desc">Small steps forming a path toward a goal.</desc>
+  <rect width="960" height="540" fill="#fffdf8"/>
+  <rect x="150" y="364" width="148" height="58" rx="10" fill="#0f766e"/>
+  <rect x="328" y="304" width="148" height="58" rx="10" fill="#c9912f"/>
+  <rect x="506" y="244" width="148" height="58" rx="10" fill="#a8573b"/>
+  <rect x="684" y="184" width="148" height="58" rx="10" fill="#19201d"/>
+  <path d="M224 338l178-60 178-60 178-60" stroke="#d9efeb" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="758" cy="158" r="34" fill="#c9912f"/>
+</svg>

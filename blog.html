@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Raymond 的博客归档页面。"
+    >
+    <title>Blog | Raymond</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#home" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span data-i18n="brand.name">Raymond</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-open="false">
+        <a href="index.html#about" data-i18n="nav.about">关于</a>
+        <a href="projects.html" data-i18n="nav.projects">项目</a>
+        <a href="blog.html" data-i18n="nav.blog">博客</a>
+        <a href="index.html#contact" data-i18n="nav.contact">联系</a>
+      </nav>
+
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang="zh">中文</button>
+        <button class="lang-button" type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-hero">
+        <p class="eyebrow" data-i18n="sections.blogKicker">博客</p>
+        <h1 data-i18n="blogPage.title">博客</h1>
+        <p class="hero-copy" data-i18n="blogPage.subtitle">
+          这里集中整理更多文章、笔记和长期写作记录。
+        </p>
+        <div class="hero-actions">
+          <a class="button secondary" href="index.html#blog" data-i18n="blogPage.backCta">返回首页</a>
+        </div>
+      </section>
+
+      <section class="section blog-archive">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="sections.blogKicker">博客</p>
+            <h2 data-i18n="sections.blogTitle">把想法沉淀成可回看的文字</h2>
+          </div>
+          <div class="tag-filter" id="tag-filter" aria-label="Blog tag filter"></div>
+        </div>
+        <div class="blog-grid" id="blog-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.note">用静态 HTML/CSS/JS 构建，方便长期维护。</span>
+      <span id="footer-year"></span>
+    </footer>
+
+    <dialog class="article-dialog" id="article-dialog">
+      <article class="article-modal">
+        <button class="dialog-close" type="button" aria-label="Close article">×</button>
+        <p class="article-meta" id="article-meta"></p>
+        <h2 id="article-title"></h2>
+        <img class="article-cover" id="article-cover" alt="" hidden>
+        <div class="article-tags" id="article-tags"></div>
+        <div class="article-body" id="article-body"></div>
+      </article>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>

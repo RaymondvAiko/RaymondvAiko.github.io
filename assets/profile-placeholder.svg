@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A calm abstract profile visual for a personal homepage.</desc>
+  <rect width="720" height="720" fill="#d9efeb"/>
+  <path fill="#fffdf8" d="M82 108h556v504H82z"/>
+  <path fill="#0f766e" d="M82 108h556v126H82z"/>
+  <circle cx="360" cy="331" r="108" fill="#19201d"/>
+  <path fill="#a8573b" d="M177 590c22-118 92-181 183-181s161 63 183 181H177z"/>
+  <path fill="#c9912f" d="M148 264c42-80 113-124 212-124 98 0 169 44 212 124H148z" opacity=".92"/>
+  <path fill="#fffdf8" d="M264 321c30-42 62-63 96-63s66 21 96 63c-30 42-62 63-96 63s-66-21-96-63z" opacity=".16"/>
+  <path fill="none" stroke="#19201d" stroke-width="18" d="M188 572h344"/>
+  <path fill="none" stroke="#0b5f59" stroke-width="10" d="M132 168h456"/>
+</svg>

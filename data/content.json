@@ -1,0 +1,630 @@
+{
+  "zh": {
+    "brand": {
+      "name": "Raymond"
+    },
+    "nav": {
+      "about": "关于",
+      "projects": "项目",
+      "blog": "博客",
+      "contact": "联系"
+    },
+    "hero": {
+      "eyebrow": "个人主页 / 长期写作 / 项目记录",
+      "title": "你好，我是 Raymond",
+      "subtitle": "我在这里整理创业、投资、法律、AI 产品和持续学习相关的工作与思考。",
+      "primaryCta": "阅读博客",
+      "secondaryCta": "联系我",
+      "projectsCta": "了解项目"
+    },
+    "profile": {
+      "label": "当前关注",
+      "image": {
+        "src": "assets/Gemini_Generated_Image_xm0t3axm0t3axm0t.png",
+        "alt": "个人主页视觉图"
+      },
+      "focus": [
+        "创业",
+        "孵化",
+        "AI+",
+        "持续学习"
+      ]
+    },
+    "sections": {
+      "aboutKicker": "关于我",
+      "aboutTitle": "在创业、资本、法律和产品之间搭建可执行的系统",
+      "projectsKicker": "项目与经历",
+      "projectsTitle": "一些正在推进和曾经深度参与的工作",
+      "blogKicker": "博客",
+      "blogTitle": "把想法沉淀成文字",
+      "contactKicker": "联系",
+      "contactTitle": "欢迎交流想法、项目和机会"
+    },
+    "projectsPage": {
+      "moreCta": "更多内容",
+      "title": "项目与经历",
+      "subtitle": "这里集中整理我正在推进的项目、过往经历和长期维护的工作记录。",
+      "backCta": "返回首页",
+      "detailBackCta": "返回项目列表",
+      "detailFallbackTitle": "项目详情",
+      "detailFallbackBody": "暂时没有找到这个项目，稍后可以从项目列表重新进入。"
+    },
+    "blogPage": {
+      "moreCta": "更多内容",
+      "title": "博客",
+      "subtitle": "这里集中整理文章、笔记和长期写作记录。",
+      "backCta": "返回首页"
+    },
+    "about": {
+      "body": "我有连续创业、风险投资和律师工作的复合背景，长期关注 AI+、消费电子、生命科学、持续学习和复杂项目从 0 到 1 的搭建。",
+      "metrics": [
+        {
+          "value": "10+",
+          "label": "连续创业经验，覆盖产品定义、战略管理、融资、PR 和组织协作"
+        },
+        {
+          "value": "15亿+",
+          "label": "参与创业企业十余轮融资，累计融资金额约人民币 15 亿元"
+        },
+        {
+          "value": "70+",
+          "label": "风险投资阶段管理项目数量，曾担任 24 家企业董事"
+        },
+        {
+          "value": "7年",
+          "label": "律师经验，覆盖法律事务、知识产权和企业治理相关工作"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": "storyverse-video-agent",
+        "title": "Storyverse Video Agent",
+        "description": "一个希望用镜头语言把故事讲好的 AI 视频项目。",
+        "tags": [
+          "AI+",
+          "视频生成",
+          "镜头语言"
+        ],
+        "linkLabel": "访问项目",
+        "url": "https://www.storyverai.art",
+        "period": "长期维护",
+        "role": "战略管理 / 产品定义",
+        "details": [
+          "正在同时推动 Studio 和在线平台，希望让视频创作从提示词生成走向更有导演感的叙事流程。",
+          "项目重点包括镜头语言、故事结构、角色连续性和面向创作者的产品体验。"
+        ],
+        "highlights": [
+          "Video Agent",
+          "Studio 与在线平台",
+          "故事驱动的生成流程"
+        ]
+      },
+      {
+        "id": "longevity-geroscience",
+        "title": "抗衰老与 Geroscience",
+        "description": "系统研究衰老干预通路，并阶段性产出面向疾病和健康管理的药物、保健成分与产品方向。",
+        "tags": [
+          "长寿",
+          "抗衰老",
+          "老年性疾病"
+        ],
+        "linkLabel": "查看项目",
+        "url": "#",
+        "period": "组建中",
+        "role": "组建团队 / 整合资源",
+        "details": [
+          "围绕衰老机制、干预靶点、临床可行性和商业化路径做持续研究。",
+          "短期关注能形成产品或管线验证的具体方向，长期关注 geroscience 作为底层方法论的系统机会。"
+        ],
+        "highlights": [
+          "衰老通路研究",
+          "疾病与健康管理场景",
+          "团队与资源整合"
+        ]
+      },
+      {
+        "id": "continual-learning-commercialization",
+        "title": "持续学习的商业化应用",
+        "description": "一方面寻找持续学习的底层突破，另一方面探索更适合落地的商业化入口。",
+        "tags": [
+          "持续学习",
+          "AI+",
+          "教育科技"
+        ],
+        "linkLabel": "查看项目",
+        "url": "#",
+        "period": "实验阶段",
+        "role": "产品定义 / 商业化探索",
+        "details": [
+          "持续学习不是简单的内容分发，而是如何让人长期保留动机、反馈和能力增长。",
+          "项目目前聚焦学习系统、个性化反馈、AI 辅助陪伴和可持续商业模型。"
+        ],
+        "highlights": [
+          "学习系统设计",
+          "AI 辅助反馈",
+          "商业化路径验证"
+        ]
+      },
+      {
+        "id": "startup-financing-strategy",
+        "title": "创业融资与战略管理",
+        "description": "在多家创业企业负责融资、战略、PR 与跨职能管理，把复杂外部资源转化为组织推进力。",
+        "tags": [
+          "创业",
+          "融资",
+          "战略"
+        ],
+        "linkLabel": "查看经历",
+        "url": "#",
+        "period": "过往经历",
+        "role": "融资负责人 / 战略管理",
+        "details": [
+          "曾在三家创业企业负责超过 10 个轮次的融资工作，累计融资金额约 15 亿人民币。",
+          "工作内容覆盖融资叙事、投资人沟通、关键交易推进、战略规划、PR 管理和跨部门协作。"
+        ],
+        "highlights": [
+          "十余轮融资",
+          "约 15 亿人民币融资额",
+          "战略与 PR 管理"
+        ]
+      },
+      {
+        "id": "legal-ip-governance",
+        "title": "法律、知识产权与公司治理",
+        "description": "把律师经验转化为创业公司在交易、治理、知识产权和风险管理中的长期能力。",
+        "tags": [
+          "法律",
+          "知识产权",
+          "治理"
+        ],
+        "linkLabel": "查看经历",
+        "url": "#",
+        "period": "专业背景",
+        "role": "法律事务 / 知识产权管理",
+        "details": [
+          "拥有 7 年律师经验，并在创业公司中负责法律、知识产权和公司治理相关工作。",
+          "关注法律判断如何服务真实业务：既控制风险，也支持产品、融资和组织长期发展。"
+        ],
+        "highlights": [
+          "7 年律师经验",
+          "知识产权管理",
+          "公司治理与风险管理"
+        ]
+      }
+    ],
+    "blog": {
+      "allTags": "全部",
+      "empty": "暂时没有匹配的文章。",
+      "readMore": "阅读全文",
+      "posts": [
+        {
+          "id": "building-a-home",
+          "title": "为什么需要一个长期维护的个人主页",
+          "date": "2026-05-23",
+          "tags": [
+            "主页",
+            "写作"
+          ],
+          "image": {
+            "src": "assets/blog/homepage-systems.svg",
+            "alt": "抽象的个人主页结构示意图"
+          },
+          "summary": "个人主页不只是展示页面，也是一套让项目、思考和身份持续沉淀的容器。",
+          "body": [
+            "一个长期主页的价值，在于它能把分散在社交平台、文档和聊天记录里的内容重新组织起来。",
+            "首版不需要一次写完所有真实内容。先建立稳定结构，再用真实项目和文章持续替换，占位内容会自然退出舞台。"
+          ]
+        },
+        {
+          "id": "notes-as-system",
+          "title": "把笔记当成系统，而不是仓库",
+          "date": "2026-04-18",
+          "tags": [
+            "知识管理",
+            "方法"
+          ],
+          "image": {
+            "src": "assets/blog/notes-system.svg",
+            "alt": "分层笔记与知识节点示意图"
+          },
+          "summary": "好的笔记系统不追求囤积，而是帮助自己在未来更快重新进入问题。",
+          "body": [
+            "笔记真正有用的时刻，通常不是保存那一刻，而是未来再次面对类似问题的时候。",
+            "因此，标签、摘要和上下文比完整复制资料更重要。它们让知识变得可重新调用。"
+          ]
+        },
+        {
+          "id": "ai-workflow",
+          "title": "AI 工具如何进入日常工作流",
+          "date": "2026-03-02",
+          "tags": [
+            "AI",
+            "工作流"
+          ],
+          "image": {
+            "src": "assets/blog/ai-workflow.svg",
+            "alt": "AI 工作流节点连接示意图"
+          },
+          "summary": "把 AI 当成协作者，而不是按钮，可以更自然地嵌入研究、草拟和复盘。",
+          "body": [
+            "AI 工具最适合处理开放问题中的结构化部分，比如拆解任务、生成备选方案和检查遗漏。",
+            "更重要的是保留自己的判断，让工具承担速度，让人负责方向。"
+          ]
+        },
+        {
+          "id": "small-systems",
+          "title": "小系统如何支持长期目标",
+          "date": "2026-02-14",
+          "tags": [
+            "方法",
+            "系统"
+          ],
+          "image": {
+            "src": "assets/blog/small-systems.svg",
+            "alt": "小系统支持长期目标的阶梯示意图"
+          },
+          "summary": "长期目标不一定靠宏大计划推进，很多时候需要的是可重复的小系统。",
+          "body": [
+            "真正能持续的目标，往往不是每天重新鼓起勇气，而是让下一步动作足够清晰、足够容易开始。",
+            "小系统的意义在于降低启动成本，并让反馈自然出现。"
+          ]
+        },
+        {
+          "id": "review-rhythm",
+          "title": "建立适合自己的复盘节奏",
+          "date": "2026-01-08",
+          "tags": [
+            "复盘",
+            "写作"
+          ],
+          "image": {
+            "src": "assets/blog/review-rhythm.svg",
+            "alt": "复盘节奏与循环记录示意图"
+          },
+          "summary": "复盘不只是总结结果，也是重新校准方向和注意力的过程。",
+          "body": [
+            "好的复盘不需要很长，但需要足够诚实。它应该回答什么有效、什么消耗过高、下一轮要如何调整。",
+            "当复盘成为节奏，经验才更容易从事件变成判断。"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "links": [
+        {
+          "label": "Email",
+          "value": "y-jin2009@nlaw.northwestern.edu",
+          "url": "mailto:y-jin2009@nlaw.northwestern.edu"
+        },
+        {
+          "label": "GitHub",
+          "value": "github.com/RaymondvAiko",
+          "url": "https://github.com/RaymondvAiko"
+        },
+        {
+          "label": "LinkedIn",
+          "value": "待更新",
+          "url": ""
+        }
+      ]
+    },
+    "footer": {
+      "note": "创造的时代来啦"
+    }
+  },
+  "en": {
+    "brand": {
+      "name": "Raymond"
+    },
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "Personal home / AI products / Venture building",
+      "title": "Hi, I am Raymond.",
+      "subtitle": "I collect my work and thinking across entrepreneurship, venture investing, law, AI products, and continual learning.",
+      "primaryCta": "Read Blog",
+      "secondaryCta": "Contact Me",
+      "projectsCta": "Explore Projects"
+    },
+    "profile": {
+      "label": "Current focus",
+      "image": {
+        "src": "assets/Gemini_Generated_Image_xm0t3axm0t3axm0t.png",
+        "alt": "Personal homepage visual"
+      },
+      "focus": [
+        "Entrepreneurship",
+        "Incubator",
+        "AI+",
+        "Continual Learning"
+      ]
+    },
+    "sections": {
+      "aboutKicker": "About",
+      "aboutTitle": "Building executable systems across startups, capital, law, and product.",
+      "projectsKicker": "Projects & Experience",
+      "projectsTitle": "Selected work in progress and experience worth keeping visible.",
+      "blogKicker": "Blog",
+      "blogTitle": "Thoughts shaped into notes.",
+      "contactKicker": "Contact",
+      "contactTitle": "Open to ideas, projects, and thoughtful conversations."
+    },
+    "projectsPage": {
+      "moreCta": "More",
+      "title": "Projects & Experience",
+      "subtitle": "A fuller archive of current projects, past experience, and long-running work.",
+      "backCta": "Back home",
+      "detailBackCta": "Back to projects",
+      "detailFallbackTitle": "Project Detail",
+      "detailFallbackBody": "This project could not be found. You can return to the project list and open it again."
+    },
+    "blogPage": {
+      "moreCta": "More",
+      "title": "Blog",
+      "subtitle": "A fuller archive of essays, notes, and long-running writing.",
+      "backCta": "Back home"
+    },
+    "about": {
+      "body": "I bring a hybrid background across entrepreneurship, venture capital, and legal practice, with long-running interests in AI+, consumer electronics, life sciences, continual learning, and building complex projects from zero to one.",
+      "metrics": [
+        {
+          "value": "10+",
+          "label": "Years of continuous entrepreneurship across product definition, strategy, financing, PR, and operations"
+        },
+        {
+          "value": "RMB 1.5B+",
+          "label": "Financing led or supported across more than ten startup fundraising rounds"
+        },
+        {
+          "value": "70+",
+          "label": "Venture projects managed, including board seats at 24 portfolio companies"
+        },
+        {
+          "value": "7 yrs",
+          "label": "Legal practice experience across legal affairs, IP, and corporate governance"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": "storyverse-video-agent",
+        "title": "Storyverse Video Agent",
+        "description": "An AI video project focused on telling better stories through cinematic language.",
+        "tags": [
+          "AI+",
+          "Video generation",
+          "Cinematic language"
+        ],
+        "linkLabel": "Visit project",
+        "url": "https://www.storyverai.art",
+        "period": "Long-running",
+        "role": "Strategy / Product definition",
+        "details": [
+          "The project is developing both a Studio workflow and an online platform, moving video creation beyond prompt-to-clip generation toward a more directorial storytelling process.",
+          "Key areas include cinematic language, story structure, character continuity, and creator-facing product experience."
+        ],
+        "highlights": [
+          "Video Agent",
+          "Studio and online platform",
+          "Story-driven generation workflow"
+        ]
+      },
+      {
+        "id": "longevity-geroscience",
+        "title": "Longevity and Geroscience",
+        "description": "Researching intervention pathways for aging while shaping disease-focused and health-management products over time.",
+        "tags": [
+          "Longevity",
+          "Geroscience",
+          "Age-related disease"
+        ],
+        "linkLabel": "View project",
+        "url": "#",
+        "period": "In formation",
+        "role": "Team building / Resource integration",
+        "details": [
+          "This work studies aging mechanisms, intervention targets, clinical feasibility, and commercialization paths.",
+          "The near-term focus is on directions that can validate products or pipelines; the long-term focus is geroscience as a systematic opportunity."
+        ],
+        "highlights": [
+          "Aging pathway research",
+          "Disease and health-management scenarios",
+          "Team and resource integration"
+        ]
+      },
+      {
+        "id": "continual-learning-commercialization",
+        "title": "Commercial Applications of Continual Learning",
+        "description": "Looking for both underlying breakthroughs in continual learning and practical business entry points.",
+        "tags": [
+          "Continual learning",
+          "AI+",
+          "EdTech"
+        ],
+        "linkLabel": "View project",
+        "url": "#",
+        "period": "Experimental",
+        "role": "Product definition / Commercial exploration",
+        "details": [
+          "Continual learning is not only content delivery. The central question is how people sustain motivation, feedback, and capability growth over time.",
+          "The project currently focuses on learning systems, personalized feedback, AI-supported companionship, and durable business models."
+        ],
+        "highlights": [
+          "Learning-system design",
+          "AI-supported feedback",
+          "Commercial path validation"
+        ]
+      },
+      {
+        "id": "startup-financing-strategy",
+        "title": "Startup Financing and Strategy",
+        "description": "Leading financing, strategy, PR, and cross-functional work across startups by turning external resources into execution power.",
+        "tags": [
+          "Startups",
+          "Financing",
+          "Strategy"
+        ],
+        "linkLabel": "View experience",
+        "url": "#",
+        "period": "Past experience",
+        "role": "Financing lead / Strategy management",
+        "details": [
+          "I led or supported more than ten fundraising rounds across three startups, with total financing of roughly RMB 1.5 billion.",
+          "The work covered financing narratives, investor communication, transaction execution, strategy, PR, and cross-functional coordination."
+        ],
+        "highlights": [
+          "10+ fundraising rounds",
+          "Approx. RMB 1.5B raised",
+          "Strategy and PR management"
+        ]
+      },
+      {
+        "id": "legal-ip-governance",
+        "title": "Legal, IP, and Corporate Governance",
+        "description": "Turning legal experience into long-term startup capability across transactions, governance, intellectual property, and risk management.",
+        "tags": [
+          "Law",
+          "IP",
+          "Governance"
+        ],
+        "linkLabel": "View experience",
+        "url": "#",
+        "period": "Professional background",
+        "role": "Legal affairs / IP management",
+        "details": [
+          "I have seven years of legal practice experience and have also led legal, IP, and governance work inside startups.",
+          "My focus is making legal judgment useful to real business: controlling risk while supporting product, financing, and organizational growth."
+        ],
+        "highlights": [
+          "7 years legal practice",
+          "IP management",
+          "Governance and risk management"
+        ]
+      }
+    ],
+    "blog": {
+      "allTags": "All",
+      "empty": "No posts match this filter yet.",
+      "readMore": "Read more",
+      "posts": [
+        {
+          "id": "building-a-home",
+          "title": "Why a Long-Term Personal Home Matters",
+          "date": "2026-05-23",
+          "tags": [
+            "Home",
+            "Writing"
+          ],
+          "image": {
+            "src": "assets/blog/homepage-systems.svg",
+            "alt": "Abstract structure of a personal homepage"
+          },
+          "summary": "A personal site is not only a profile. It is a durable container for projects, thinking, and identity.",
+          "body": [
+            "The value of a long-term homepage is that it gathers what usually lives across social feeds, documents, and conversations.",
+            "The first version does not need to be complete. Build the structure first, then let real projects and articles replace the placeholders over time."
+          ]
+        },
+        {
+          "id": "notes-as-system",
+          "title": "Notes as a System, Not a Warehouse",
+          "date": "2026-04-18",
+          "tags": [
+            "Knowledge",
+            "Method"
+          ],
+          "image": {
+            "src": "assets/blog/notes-system.svg",
+            "alt": "Layered notes and knowledge nodes"
+          },
+          "summary": "Useful notes are not about hoarding. They help you return to a problem faster in the future.",
+          "body": [
+            "Notes usually become valuable later, when you face a similar question and need to rebuild context quickly.",
+            "That makes tags, summaries, and source context more important than copying everything in full."
+          ]
+        },
+        {
+          "id": "ai-workflow",
+          "title": "Bringing AI Tools Into Daily Workflows",
+          "date": "2026-03-02",
+          "tags": [
+            "AI",
+            "Workflow"
+          ],
+          "image": {
+            "src": "assets/blog/ai-workflow.svg",
+            "alt": "Connected nodes in an AI workflow"
+          },
+          "summary": "Treating AI as a collaborator, not a button, makes it easier to use across research, drafting, and review.",
+          "body": [
+            "AI tools are especially strong at structuring open-ended work: breaking down tasks, generating alternatives, and checking for gaps.",
+            "The important part is keeping your judgment in the loop. Let the tool provide speed, and let the person hold direction."
+          ]
+        },
+        {
+          "id": "small-systems",
+          "title": "How Small Systems Support Long-Term Goals",
+          "date": "2026-02-14",
+          "tags": [
+            "Method",
+            "Systems"
+          ],
+          "image": {
+            "src": "assets/blog/small-systems.svg",
+            "alt": "Small systems forming steps toward a long-term goal"
+          },
+          "summary": "Long-term goals do not always need grand plans. They often need repeatable small systems.",
+          "body": [
+            "Sustainable goals rarely depend on rebuilding motivation every day. They depend on making the next action clear and easy to start.",
+            "Small systems reduce the cost of beginning and make useful feedback easier to notice."
+          ]
+        },
+        {
+          "id": "review-rhythm",
+          "title": "Finding a Review Rhythm That Works",
+          "date": "2026-01-08",
+          "tags": [
+            "Review",
+            "Writing"
+          ],
+          "image": {
+            "src": "assets/blog/review-rhythm.svg",
+            "alt": "Circular review rhythm and notes"
+          },
+          "summary": "Review is not only about summarizing outcomes. It also recalibrates direction and attention.",
+          "body": [
+            "A useful review does not need to be long, but it does need to be honest. It should ask what worked, what cost too much, and what needs to change next.",
+            "When review becomes a rhythm, experience is more likely to become judgment."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "links": [
+        {
+          "label": "Email",
+          "value": "y-jin2009@nlaw.northwestern.edu",
+          "url": "mailto:y-jin2009@nlaw.northwestern.edu"
+        },
+        {
+          "label": "GitHub",
+          "value": "github.com/RaymondvAiko",
+          "url": "https://github.com/RaymondvAiko"
+        },
+        {
+          "label": "LinkedIn",
+          "value": "To be updated",
+          "url": ""
+        }
+      ]
+    },
+    "footer": {
+      "note": "It's time to build..."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Homepage systems cover</title>
+  <desc id="desc">An abstract layout of a personal homepage system.</desc>
+  <rect width="960" height="540" fill="#d9efeb"/>
+  <rect x="96" y="88" width="768" height="364" rx="18" fill="#fffdf8"/>
+  <rect x="144" y="136" width="284" height="42" rx="8" fill="#19201d"/>
+  <rect x="144" y="208" width="672" height="20" rx="10" fill="#0f766e"/>
+  <rect x="144" y="260" width="196" height="112" rx="12" fill="#c9912f"/>
+  <rect x="382" y="260" width="196" height="112" rx="12" fill="#a8573b"/>
+  <rect x="620" y="260" width="196" height="112" rx="12" fill="#0f766e"/>
+</svg>

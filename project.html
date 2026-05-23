@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Raymond 的项目详情页面。"
+    >
+    <title>Project Detail | Raymond</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#home" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span data-i18n="brand.name">Raymond</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-open="false">
+        <a href="index.html#about" data-i18n="nav.about">关于</a>
+        <a href="projects.html" data-i18n="nav.projects">项目</a>
+        <a href="blog.html" data-i18n="nav.blog">博客</a>
+        <a href="index.html#contact" data-i18n="nav.contact">联系</a>
+      </nav>
+
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang="zh">中文</button>
+        <button class="lang-button" type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="project-detail">
+      <section class="section page-hero project-detail-hero">
+        <p class="eyebrow" data-i18n="sections.projectsKicker">项目与经历</p>
+        <h1 id="project-detail-title" data-i18n="projectsPage.detailFallbackTitle">项目详情</h1>
+        <p class="hero-copy" id="project-detail-summary"></p>
+        <div class="article-tags" id="project-detail-tags"></div>
+        <div class="hero-actions">
+          <a class="button secondary" href="projects.html" data-i18n="projectsPage.detailBackCta">返回项目列表</a>
+        </div>
+      </section>
+
+      <section class="section project-detail-section">
+        <div class="detail-meta metrics" id="project-detail-meta"></div>
+        <div class="article-body project-detail-body" id="project-detail-body"></div>
+        <div class="project-grid detail-highlights" id="project-detail-highlights"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.note">用静态 HTML/CSS/JS 构建，方便长期维护。</span>
+      <span id="footer-year"></span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Notes system cover</title>
+  <desc id="desc">Layered notes connected by knowledge paths.</desc>
+  <rect width="960" height="540" fill="#fffdf8"/>
+  <circle cx="238" cy="150" r="58" fill="#0f766e"/>
+  <circle cx="480" cy="270" r="72" fill="#c9912f"/>
+  <circle cx="722" cy="390" r="58" fill="#a8573b"/>
+  <path d="M286 178 420 242M540 304l132 62" fill="none" stroke="#19201d" stroke-width="18" stroke-linecap="round"/>
+  <rect x="160" y="326" width="220" height="86" rx="12" fill="#d9efeb"/>
+  <rect x="580" y="128" width="220" height="86" rx="12" fill="#d9efeb"/>
+</svg>
