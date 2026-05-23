@@ -12,7 +12,7 @@
     "hero": {
       "eyebrow": "个人主页 / 长期写作 / 项目记录",
       "title": "你好，我是 Raymond",
-      "subtitle": "我在这里整理自己的工作、项目、思考和持续学习的轨迹。",
+      "subtitle": "我在这里整理创业、投资、法律、AI 产品和持续学习相关的工作与思考。",
       "primaryCta": "阅读博客",
       "secondaryCta": "联系我",
       "projectsCta": "了解项目"
@@ -32,9 +32,9 @@
     },
     "sections": {
       "aboutKicker": "关于我",
-      "aboutTitle": "把复杂问题拆成可以长期推进的系统",
+      "aboutTitle": "在创业、资本、法律和产品之间搭建可执行的系统",
       "projectsKicker": "项目与经历",
-      "projectsTitle": "一些有趣的工作",
+      "projectsTitle": "一些正在推进和曾经深度参与的工作",
       "blogKicker": "博客",
       "blogTitle": "把想法沉淀成文字",
       "contactKicker": "联系",
@@ -43,7 +43,7 @@
     "projectsPage": {
       "moreCta": "更多内容",
       "title": "项目与经历",
-      "subtitle": "这里集中整理更多项目、实验、经历和长期维护的工作记录。",
+      "subtitle": "这里集中整理我正在推进的项目、过往经历和长期维护的工作记录。",
       "backCta": "返回首页",
       "detailBackCta": "返回项目列表",
       "detailFallbackTitle": "项目详情",
@@ -52,52 +52,58 @@
     "blogPage": {
       "moreCta": "更多内容",
       "title": "博客",
-      "subtitle": "这里集中整理更多文章、笔记和长期写作记录。",
+      "subtitle": "这里集中整理文章、笔记和长期写作记录。",
       "backCta": "返回首页"
     },
     "about": {
-      "body": "10年连续创业经验、2年风险投资经验、7年律师经验",
+      "body": "我有连续创业、风险投资和律师工作的复合背景，长期关注 AI+、消费电子、生命科学、持续学习和复杂项目从 0 到 1 的搭建。",
       "metrics": [
         {
-          "value": "3+",
-          "label": "曾在两家创业企业担任3个消费电子产品线的负责人，并孵化超过3个软件和消费产品"
-        },
-        {
           "value": "10+",
-          "label": "曾在三家创业企业负责超过10个轮次的融资，总融资金额约15亿人民币"
+          "label": "连续创业经验，覆盖产品定义、战略管理、融资、PR 和组织协作"
         },
         {
-          "value": "24",
-          "label": "曾在风险投资机构管理超过70个项目，担任其中24家企业的董事"
+          "value": "15亿+",
+          "label": "参与创业企业十余轮融资，累计融资金额约人民币 15 亿元"
         },
         {
-          "value": "3",
-          "label": "曾在三家创业企业负责战略管理、PR管理、法律和知识产权管理"
+          "value": "70+",
+          "label": "风险投资阶段管理项目数量，曾担任 24 家企业董事"
+        },
+        {
+          "value": "7年",
+          "label": "律师经验，覆盖法律事务、知识产权和企业治理相关工作"
         }
       ]
     },
     "projects": [
       {
-        "id": "Storyverse",
-        "title": "Video Agent Project",
-        "description": "一个想用镜头语言把故事讲好的项目。",
+        "id": "storyverse-video-agent",
+        "title": "Storyverse Video Agent",
+        "description": "一个希望用镜头语言把故事讲好的 AI 视频项目。",
         "tags": [
-          "镜头语言",
-          "讲故事"
+          "AI+",
+          "视频生成",
+          "镜头语言"
         ],
-        "linkLabel": "查看项目",
-        "url": "www.storyverai.art",
+        "linkLabel": "访问项目",
+        "url": "https://www.storyverai.art",
         "period": "长期维护",
         "role": "战略管理 / 产品定义",
         "details": [
-          "正在同时推动Studio和在线平台"
+          "正在同时推动 Studio 和在线平台，希望让视频创作从提示词生成走向更有导演感的叙事流程。",
+          "项目重点包括镜头语言、故事结构、角色连续性和面向创作者的产品体验。"
         ],
-        "highlights": []
+        "highlights": [
+          "Video Agent",
+          "Studio 与在线平台",
+          "故事驱动的生成流程"
+        ]
       },
       {
-        "id": "Longevity+Geroscience",
-        "title": "抗衰老",
-        "description": "全面研究能对衰老进行干预的通路，同时阶段性产出治疗具体疾病的药物和保健成分",
+        "id": "longevity-geroscience",
+        "title": "抗衰老与 Geroscience",
+        "description": "系统研究衰老干预通路，并阶段性产出面向疾病和健康管理的药物、保健成分与产品方向。",
         "tags": [
           "长寿",
           "抗衰老",
@@ -105,72 +111,85 @@
         ],
         "linkLabel": "查看项目",
         "url": "#",
-        "period": "实验项目",
+        "period": "组建中",
         "role": "组建团队 / 整合资源",
         "details": [
-          "这个项目记录 AI 工具在选题、资料整理、草稿生成和复盘中的不同使用方式。",
-          "重点是保留人的判断与表达，让工具负责加速结构化工作，而不是替代核心思考。"
+          "围绕衰老机制、干预靶点、临床可行性和商业化路径做持续研究。",
+          "短期关注能形成产品或管线验证的具体方向，长期关注 geroscience 作为底层方法论的系统机会。"
         ],
-        "highlights": []
+        "highlights": [
+          "衰老通路研究",
+          "疾病与健康管理场景",
+          "团队与资源整合"
+        ]
       },
       {
-        "id": "continual learning",
+        "id": "continual-learning-commercialization",
         "title": "持续学习的商业化应用",
-        "description": "持续学习+",
+        "description": "一方面寻找持续学习的底层突破，另一方面探索更适合落地的商业化入口。",
         "tags": [
-          "持续学习"
+          "持续学习",
+          "AI+",
+          "教育科技"
         ],
         "linkLabel": "查看项目",
         "url": "#",
         "period": "实验阶段",
-        "role": "产品定义 / ",
+        "role": "产品定义 / 商业化探索",
         "details": [
-          "一方面寻求持续性学习的底层突破，另一方面找到适合切入的商业化路径。"
-        ],
-        "highlights": []
-      },
-      {
-        "id": "open-tooling",
-        "title": "开源工具整理",
-        "description": "沉淀常用工具、脚本和协作流程，方便在新项目里快速复用。",
-        "tags": [
-          "开源",
-          "效率"
-        ],
-        "linkLabel": "查看项目",
-        "url": "#",
-        "period": "工具集合",
-        "role": "工具整理 / 自动化",
-        "details": [
-          "这个项目整理日常工作中反复使用的脚本、命令和项目初始化流程。",
-          "目标是减少重复配置，把高频操作沉淀成更稳定的工作起点。"
+          "持续学习不是简单的内容分发，而是如何让人长期保留动机、反馈和能力增长。",
+          "项目目前聚焦学习系统、个性化反馈、AI 辅助陪伴和可持续商业模型。"
         ],
         "highlights": [
-          "常用脚本",
-          "协作流程",
-          "项目模板"
+          "学习系统设计",
+          "AI 辅助反馈",
+          "商业化路径验证"
         ]
       },
       {
-        "id": "personal-site",
-        "title": "跨平台个人站点",
-        "description": "围绕内容更新、移动端访问和长期发布体验搭建的个人站点实验。",
+        "id": "startup-financing-strategy",
+        "title": "创业融资与战略管理",
+        "description": "在多家创业企业负责融资、战略、PR 与跨职能管理，把复杂外部资源转化为组织推进力。",
         "tags": [
-          "网站",
-          "长期维护"
+          "创业",
+          "融资",
+          "战略"
         ],
-        "linkLabel": "查看项目",
+        "linkLabel": "查看经历",
         "url": "#",
-        "period": "站点项目",
-        "role": "前端实现 / 内容架构",
+        "period": "过往经历",
+        "role": "融资负责人 / 战略管理",
         "details": [
-          "这个项目关注个人主页如何同时承担介绍、作品集、博客和长期归档的功能。",
-          "首版用纯静态技术实现，确保部署简单、内容易改，并兼顾手机和桌面浏览体验。"
+          "曾在三家创业企业负责超过 10 个轮次的融资工作，累计融资金额约 15 亿人民币。",
+          "工作内容覆盖融资叙事、投资人沟通、关键交易推进、战略规划、PR 管理和跨部门协作。"
         ],
         "highlights": [
-          "响应式布局",
-          "中英双语",
-          "JSON 内容维护"
+          "十余轮融资",
+          "约 15 亿人民币融资额",
+          "战略与 PR 管理"
+        ]
+      },
+      {
+        "id": "legal-ip-governance",
+        "title": "法律、知识产权与公司治理",
+        "description": "把律师经验转化为创业公司在交易、治理、知识产权和风险管理中的长期能力。",
+        "tags": [
+          "法律",
+          "知识产权",
+          "治理"
+        ],
+        "linkLabel": "查看经历",
+        "url": "#",
+        "period": "专业背景",
+        "role": "法律事务 / 知识产权管理",
+        "details": [
+          "拥有 7 年律师经验，并在创业公司中负责法律、知识产权和公司治理相关工作。",
+          "关注法律判断如何服务真实业务：既控制风险，也支持产品、融资和组织长期发展。"
+        ],
+        "highlights": [
+          "7 年律师经验",
+          "知识产权管理",
+          "公司治理与风险管理"
         ]
       }
     ],
@@ -275,18 +294,18 @@
       "links": [
         {
           "label": "Email",
-          "value": "Raymond",
+          "value": "Raymond's Email",
           "url": "mailto:y-jin2009@nlaw.northwestern.edu"
         },
         {
           "label": "GitHub",
-          "value": "Raymond",
+          "value": "Raymond's Github",
           "url": "https://github.com/RaymondvAiko"
         },
         {
           "label": "LinkedIn",
-          "value": "-",
-          "url": "-"
+          "value": "待更新",
+          "url": ""
         }
       ]
     },
@@ -305,9 +324,9 @@
       "contact": "Contact"
     },
     "hero": {
-      "eyebrow": "Personal home / Long-form notes / Project log",
+      "eyebrow": "Personal home / AI products / Venture building",
       "title": "Hi, I am Raymond.",
-      "subtitle": "This is where I organize my work, projects, notes, and long-term learning.",
+      "subtitle": "I collect my work and thinking across entrepreneurship, venture investing, law, AI products, and continual learning.",
       "primaryCta": "Read Blog",
       "secondaryCta": "Contact Me",
       "projectsCta": "Explore Projects"
@@ -315,7 +334,7 @@
     "profile": {
       "label": "Current focus",
       "image": {
-        "src": "assets/profile-placeholder.svg",
+        "src": "assets/Gemini_Generated_Image_xm0t3axm0t3axm0t.png",
         "alt": "Personal homepage visual"
       },
       "focus": [
@@ -327,18 +346,18 @@
     },
     "sections": {
       "aboutKicker": "About",
-      "aboutTitle": "Turning complex problems into systems that can keep moving.",
+      "aboutTitle": "Building executable systems across startups, capital, law, and product.",
       "projectsKicker": "Projects & Experience",
-      "projectsTitle": "Selected work worth keeping visible.",
+      "projectsTitle": "Selected work in progress and experience worth keeping visible.",
       "blogKicker": "Blog",
-      "blogTitle": "Thoughts shaped into notes worth revisiting.",
+      "blogTitle": "Thoughts shaped into notes.",
       "contactKicker": "Contact",
       "contactTitle": "Open to ideas, projects, and thoughtful conversations."
     },
     "projectsPage": {
       "moreCta": "More",
       "title": "Projects & Experience",
-      "subtitle": "A fuller archive of projects, experiments, experience, and long-running work.",
+      "subtitle": "A fuller archive of current projects, past experience, and long-running work.",
       "backCta": "Back home",
       "detailBackCta": "Back to projects",
       "detailFallbackTitle": "Project Detail",
@@ -351,135 +370,140 @@
       "backCta": "Back home"
     },
     "about": {
-      "body": "Use this section for your bio, background, interests, and the keywords you want people to remember. The first version keeps the structure stable so real work, projects, and essays can replace the placeholders over time.",
+      "body": "I bring a hybrid background across entrepreneurship, venture capital, and legal practice, with long-running interests in AI+, consumer electronics, life sciences, continual learning, and building complex projects from zero to one.",
       "metrics": [
         {
-          "value": "8+",
-          "label": "Replace with years of experience"
+          "value": "10+",
+          "label": "Years of continuous entrepreneurship across product definition, strategy, financing, PR, and operations"
         },
         {
-          "value": "24",
-          "label": "Replace with featured projects"
+          "value": "RMB 1.5B+",
+          "label": "Financing led or supported across more than ten startup fundraising rounds"
         },
         {
-          "value": "∞",
-          "label": "Learning and writing in progress"
+          "value": "70+",
+          "label": "Venture projects managed, including board seats at 24 portfolio companies"
         },
         {
-          "value": "4",
-          "label": "Replace with core focus areas"
+          "value": "7 yrs",
+          "label": "Legal practice experience across legal affairs, IP, and corporate governance"
         }
       ]
     },
     "projects": [
       {
-        "id": "knowledge-system",
-        "title": "Personal Knowledge System",
-        "description": "A workflow for collecting, organizing, and reviewing long-term learning material.",
+        "id": "storyverse-video-agent",
+        "title": "Storyverse Video Agent",
+        "description": "An AI video project focused on telling better stories through cinematic language.",
         "tags": [
-          "Knowledge",
-          "Automation"
+          "AI+",
+          "Video generation",
+          "Cinematic language"
         ],
-        "linkLabel": "View project",
-        "url": "#",
+        "linkLabel": "Visit project",
+        "url": "https://www.storyverai.art",
         "period": "Long-running",
-        "role": "System design / Content organization",
+        "role": "Strategy / Product definition",
         "details": [
-          "This project focuses on turning scattered references, reading notes, and open questions into a reusable knowledge system.",
-          "The goal is not to save more material. It is to make it faster to recover context, judgment, and next actions later."
+          "The project is developing both a Studio workflow and an online platform, moving video creation beyond prompt-to-clip generation toward a more directorial storytelling process.",
+          "Key areas include cinematic language, story structure, character continuity, and creator-facing product experience."
         ],
         "highlights": [
-          "Unified source collection",
-          "Tags and summaries",
-          "Review rhythm"
+          "Video Agent",
+          "Studio and online platform",
+          "Story-driven generation workflow"
         ]
       },
       {
-        "id": "ai-writing",
-        "title": "AI Writing Experiments",
-        "description": "Exploring how AI tools can support daily writing, research, and synthesis.",
+        "id": "longevity-geroscience",
+        "title": "Longevity and Geroscience",
+        "description": "Researching intervention pathways for aging while shaping disease-focused and health-management products over time.",
         "tags": [
-          "AI",
-          "Writing"
+          "Longevity",
+          "Geroscience",
+          "Age-related disease"
         ],
         "linkLabel": "View project",
         "url": "#",
-        "period": "Experiment",
-        "role": "Workflow design / Writing research",
+        "period": "In formation",
+        "role": "Team building / Resource integration",
         "details": [
-          "This project records different ways to use AI tools across ideation, research organization, drafting, and review.",
-          "The emphasis is on keeping human judgment and voice in charge while using tools to speed up structured work."
+          "This work studies aging mechanisms, intervention targets, clinical feasibility, and commercialization paths.",
+          "The near-term focus is on directions that can validate products or pipelines; the long-term focus is geroscience as a systematic opportunity."
         ],
         "highlights": [
-          "Writing workflow",
-          "Prompt templates",
-          "Output review"
+          "Aging pathway research",
+          "Disease and health-management scenarios",
+          "Team and resource integration"
         ]
       },
       {
-        "id": "product-experience",
-        "title": "Product Experience Notes",
-        "description": "A record of product thinking from problem discovery to iterative validation.",
+        "id": "continual-learning-commercialization",
+        "title": "Commercial Applications of Continual Learning",
+        "description": "Looking for both underlying breakthroughs in continual learning and practical business entry points.",
         "tags": [
-          "Product",
-          "UX"
+          "Continual learning",
+          "AI+",
+          "EdTech"
         ],
         "linkLabel": "View project",
         "url": "#",
-        "period": "Case notes",
-        "role": "Product analysis / Experience improvement",
+        "period": "Experimental",
+        "role": "Product definition / Commercial exploration",
         "details": [
-          "This project captures product experience observations and turns scattered issues, hypotheses, and improvements into reusable cases.",
-          "Each note keeps the context, reasoning, and validation path visible so the learning can be reused later."
+          "Continual learning is not only content delivery. The central question is how people sustain motivation, feedback, and capability growth over time.",
+          "The project currently focuses on learning systems, personalized feedback, AI-supported companionship, and durable business models."
         ],
         "highlights": [
-          "Problem framing",
-          "Solution comparison",
-          "Iterative validation"
+          "Learning-system design",
+          "AI-supported feedback",
+          "Commercial path validation"
         ]
       },
       {
-        "id": "open-tooling",
-        "title": "Open Tooling Notes",
-        "description": "A collection of reusable tools, scripts, and collaboration patterns for new projects.",
+        "id": "startup-financing-strategy",
+        "title": "Startup Financing and Strategy",
+        "description": "Leading financing, strategy, PR, and cross-functional work across startups by turning external resources into execution power.",
         "tags": [
-          "Open source",
-          "Productivity"
+          "Startups",
+          "Financing",
+          "Strategy"
         ],
-        "linkLabel": "View project",
+        "linkLabel": "View experience",
         "url": "#",
-        "period": "Tooling collection",
-        "role": "Tooling / Automation",
+        "period": "Past experience",
+        "role": "Financing lead / Strategy management",
         "details": [
-          "This project organizes scripts, commands, and setup patterns that are repeatedly useful in daily work.",
-          "The goal is to reduce repeated configuration and turn common actions into a more reliable starting point."
+          "I led or supported more than ten fundraising rounds across three startups, with total financing of roughly RMB 1.5 billion.",
+          "The work covered financing narratives, investor communication, transaction execution, strategy, PR, and cross-functional coordination."
         ],
         "highlights": [
-          "Reusable scripts",
-          "Collaboration patterns",
-          "Project templates"
+          "10+ fundraising rounds",
+          "Approx. RMB 1.5B raised",
+          "Strategy and PR management"
         ]
       },
       {
-        "id": "personal-site",
-        "title": "Cross-Platform Personal Site",
-        "description": "A personal site experiment focused on content updates, mobile access, and long-term publishing.",
+        "id": "legal-ip-governance",
+        "title": "Legal, IP, and Corporate Governance",
+        "description": "Turning legal experience into long-term startup capability across transactions, governance, intellectual property, and risk management.",
         "tags": [
-          "Website",
-          "Maintenance"
+          "Law",
+          "IP",
+          "Governance"
         ],
-        "linkLabel": "View project",
+        "linkLabel": "View experience",
         "url": "#",
-        "period": "Site project",
-        "role": "Frontend implementation / Content architecture",
+        "period": "Professional background",
+        "role": "Legal affairs / IP management",
         "details": [
-          "This project explores how a personal homepage can work as an introduction, portfolio, blog, and long-term archive at the same time.",
-          "The first version uses plain static technology so deployment stays simple, content remains easy to edit, and mobile and desktop reading both feel comfortable."
+          "I have seven years of legal practice experience and have also led legal, IP, and governance work inside startups.",
+          "My focus is making legal judgment useful to real business: controlling risk while supporting product, financing, and organizational growth."
         ],
         "highlights": [
-          "Responsive layout",
-          "Bilingual content",
-          "JSON content updates"
+          "7 years legal practice",
+          "IP management",
+          "Governance and risk management"
         ]
       }
     ],
@@ -584,18 +608,18 @@
       "links": [
         {
           "label": "Email",
-          "value": "Raymond",
+          "value": "Raymond's Email",
           "url": "mailto:y-jin2009@nlaw.northwestern.edu"
         },
         {
           "label": "GitHub",
-          "value": "Raymond",
+          "value": "Raymond's GitHub",
           "url": "https://github.com/RaymondvAiko"
         },
         {
           "label": "LinkedIn",
-          "value": "-",
-          "url": "-"
+          "value": "To be updated",
+          "url": ""
         }
       ]
     },
